@@ -1,7 +1,7 @@
 <?php
 require_once('./wp-load.php');
 require_once "secret_keys.php";
-require_once "work_newsletter_users.php";
+require_once "sTfunctionsLibruary.php";
 $date = date_create('now')->format('Y-m-d');   //сегодня
 $time_range = 86400;// one day 86400
 $stop_date = date('Y-m-d', (time() - $time_range));  //вчера
